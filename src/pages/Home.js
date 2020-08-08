@@ -8,6 +8,7 @@ import {
     Paper,
     Typography,
     Button,
+    IconButton,
 } from '@material-ui/core'
 import Navigation from '../components/Navigation/Navigation'
 
@@ -68,8 +69,12 @@ const Home = () => {
                 <YourLibraryAndPlaylists />
             </Grid>
             <Grid item xs={9}>
-                <Box m={1}>
-                    <h1>hello</h1>
+                <Box>
+                    <IconButton></IconButton>
+                    <IconButton></IconButton>
+                </Box>
+                <Box>
+                    <h1>Song Carrousel</h1>
                 </Box>
             </Grid>
             <Grid item xs={2}></Grid>
